@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+import React from "react";
+import ReactDOM from "react-dom";
+// import "./index.css";
+import IPData from "ipdata";
+import App from "./components/App";
+let city = "hadera";
+const ipdata = new IPData(
+  "dcb19aafdd3accd0ca61b014f91a6cc5888d57f4f703a9758da3751e"
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const ip = "109.64.100.27";
+ipdata.lookup(ip).then(function (data) {
+  city = data.city;
+  console.log(data.city);
+  ReactDOM.render(<App city={city} />, document.getElementById("root"));
+});
+// console.log(city);
+
+/* <React.StrictMode>
+    <App />
+  </React.StrictMode>, */
