@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# React Code that displays User location acording to his ip address
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+gets the ip address of the client and through google apis get his location
+
+also added the functionality to change his city
+
+## commented the section with IPdata api if need can be uncommented
+
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -67,4 +73,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
