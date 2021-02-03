@@ -1,4 +1,4 @@
-# React Code that displays User location acording to his ip address
+# React Code that displays User location according to client ip address
 
 gets the ip address of the client and through google apis get his location
 
