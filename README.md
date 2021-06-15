@@ -4,7 +4,7 @@ gets the ip address of the client and through google apis get his location
 
 also added the functionality to change his city
 
-## commented the section with IPdata api if need can be uncommented
+## commented the section with IPdata api if needed can be uncommented
 
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
